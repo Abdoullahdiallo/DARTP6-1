@@ -1,0 +1,5 @@
+module CorbaConversion{
+interface IConversionReemote{
+double conversion(in double mt);
+};
+};

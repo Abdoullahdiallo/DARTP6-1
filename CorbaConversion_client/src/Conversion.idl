@@ -1,0 +1,19 @@
+/*
+   Module CorbaConversion: Ce module contient l'interface pour les conversions.
+*/
+
+module CorbaConversion {
+
+   /*
+      Interface IConversionReemote: Cette interface définit les opérations de conversion.
+   */
+   interface IConversionReemote {
+
+      /*
+         Opération conversion: Effectue une conversion en utilisant la valeur spécifiée en mt.
+         @param mt: La valeur à convertir.
+         @return: Le résultat de la conversion.
+      */
+      double conversion(in double mt);
+   };
+};
